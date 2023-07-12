@@ -20,7 +20,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: read-all|write-all
+    
+    permissions: write-all
+    
     strategy:
       matrix:
         node-version: [19.x]
