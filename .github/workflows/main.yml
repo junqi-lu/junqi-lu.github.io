@@ -31,7 +31,7 @@ jobs:
           version: latest
       - uses: actions/checkout@v3
         with:
-          repository: Yidaa/Issue-Blog-With-Github-Action
+          repository: Yidadaa/Issue-Blog-With-Github-Action
           ref: source
       - name: Build
         env:
