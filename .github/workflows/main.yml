@@ -21,9 +21,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
-    permissions: 
-      pages: write
-      issues: write
+    permissions: write-all
       
     strategy:
       matrix:
