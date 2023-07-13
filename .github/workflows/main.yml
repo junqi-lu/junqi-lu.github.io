@@ -23,7 +23,8 @@ jobs:
     
     permissions: 
       pages: write
-    
+      issues: write
+      
     strategy:
       matrix:
         node-version: [19.x]
